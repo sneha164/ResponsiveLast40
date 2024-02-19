@@ -1,0 +1,948 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <title>Shopify</title>
+        <!-- Favicons -->
+        <link href="assets/images/favicon.jpeg" rel="icon">
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+        <!-- Font Awesome cdn Link -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+            integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        >
+        <!-- Amination cdn Link -->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <!-- Main CSS File -->
+        <link href="assets/css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <section class="wrapper">
+            <div class="opacity">
+                <section class="banner" data-aos="zoom-in">
+                    <nav>
+                        <div class="logo" data-aos="fade-right">
+                            <img src="assets/images/logo.png" alt="Logo">
+                        </div>
+                        <div class="menu" data-aos="zoom-in">
+                            <ul>
+                                <li>
+                                    <a href="#">Home</a>
+                                </li>
+                                <li>
+                                    <a href="#">About</a>
+                                </li>
+                                <li>
+                                    <a href="#">Portfolio</a>
+                                </li>
+                                <li>
+                                    <a href="#">Service</a>
+                                </li>
+                                <li>
+                                    <a href="#">Blog</a>
+                                </li>
+                                <li>
+                                    <a href="#">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="icons" data-aos="fade-left">
+                            <i class="fa fa-user" style="margin-left: 15px; font-size: small;"></i>
+                            <i class="fa fa-search" style="margin-left: 15px;"></i>
+                            <i class="fa-regular fa-bell" style="margin-left: 15px;"></i>
+                        </div>
+                    </nav>
+                    <div class="shopify">
+                        <i class="fa-brands fa-shopify" style="font-size: 70px;"></i>
+                        <h3>shopify</h3>
+                    </div>
+                    <div class="splash-screen" id="splashScreen">
+                        <div class="image">
+                            <img src="assets/images/girl.png" alt="girl">
+                        </div>
+                        <div class="text-container">
+                            <div class=" text1 active" id="text1">
+                                <h1 class="l">L</h1>
+                                <h1 class="a">A</h1>
+                                <h1 class="s">S</h1>
+                                <h1 class="t">T</h1>
+                            </div>
+                            <div class="btn">
+                                <button onclick="slide1()" class="prev" data-aos="fade-right">Prev</button>
+                                <button onclick="slide1()" class="next" data-aos="fade-left">Next</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content" id="content" style="display: none;">
+                        <div class="image">
+                            <img src="assets/images/girl.png" alt="girl">
+                        </div>
+                        <div class="text-container">
+                            <div class=" text2" id="text2">
+                                <h1 class="f">F</h1>
+                                <h1 class="i">I</h1>
+                                <h1 class="r">R</h1>
+                                <h1 class="s">S</h1>
+                                <h1 class="t">T</h1>
+                            </div>
+                            <div class="btn">
+                                <button onclick="slide2()" class="prev" data-aos="fade-right">Prev</button>
+                                <button onclick="slide2()" class="next" data-aos="fade-left">Next</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="scroll" data-aos="fade-up">
+                        <button id="scrollbtn">
+                            <a href="#about">
+                                Scrolldown
+                                <i class="fa-solid fa-computer-mouse" style="margin-top: 10px;"></i>
+                            </a>
+                        </button>
+                    </div>
+                </section>
+            </div>
+            <!-- Section navbar ended-->
+            <section class="logo-section" data-aos="fade-right">
+                <div class="logo-container">
+                    <img src="assets/images/GEM.png" alt="Logo 1" width="20%">
+                    <img src="assets/images/united.jpeg" alt="Logo 2" width="20%">
+                    <img src="assets/images/dream.jpeg" alt="Logo 3" width="20%">
+                    <img src="assets/images/GasLink.png" alt="Logo 4" width="20%">
+                </div>
+                <div class="card" data-aos="fade-up">
+                    <div class="top">
+                        <div class="stars">
+                            <span class="star">&#9733;</span>
+                            <span class="star">&#9733;</span>
+                            <span class="star">&#9733;</span>
+                            <span class="star">&#9733;</span>
+                            <span class="star">&#9733;</span>
+                        </div>
+                    </div>
+                    <div class="mid">
+                        <p>
+                            <strong>4109 jobs</strong>
+                            completed
+                            <br>
+                            successfully with
+                            <br>
+                            <strong>97.4%</strong>
+                            5-star reviews
+                        </p>
+                    </div>
+                    <div class="bottom">
+                        <img src="assets/images/Shopify-Logo.png" alt="shopify" width="50%">
+                    </div>
+                </div>
+            </section>
+            <section class="about" id="about">
+                <section class="cards">
+                    <div class="card1" data-aos="fade-right">
+                        <div class="top">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </div>
+                        <img src="assets/images/image1.jpg" alt="bonsai">
+                        <div class="bottom">
+                            <div class="text">
+                                <h2>
+                                    Chinese Elm
+                                    <br>
+                                    Bonsai
+                                </h2>
+                            </div>
+                            <div class="Buy">
+                                <a href="#" class="start">Buy now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card2" data-aos="fade-up">
+                        <div class="top">
+                            <img
+                                src="assets/images/bonsai.jpeg"
+                                alt="bonsai"
+                                width="180px"
+                                height="180px"
+                            >
+                        </div>
+                        <div class="bottom">
+                            <div class="text">
+                                <p>
+                                    Lorem ipsum
+                                    <br>
+                                    dolor sit
+                                </p>
+                            </div>
+                            <div class="icon">
+                                <i class="fa-solid fa-plus"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card3" data-aos="fade-up">
+                        <div class="top">
+                            <img
+                                src="assets/images/testimonials-2.jpg"
+                                alt="bonsai"
+                                width="50px"
+                                height="50px"
+                            >
+                        </div>
+                        <div class="mid">
+                            <div class="text">
+                                <p>
+                                    Set up an online
+                                    <br>
+                                    WooCommerce store
+                                    <br>
+                                    <br>
+                                    <span style="color: gainsboro;">Quoted</span>
+                                    <strong>$125</strong>
+                                </p>
+                            </div>
+                            <div class="icon">
+                                <i class="fa-solid fa-check"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card4" data-aos="fade-up">
+                        <div class="top">
+                            <img
+                                src="assets/images/phone.png"
+                                alt="bonsai"
+                                width="450px"
+                                height="400px"
+                            >
+                        </div>
+                        <div class="mid">
+                            <img src="assets/images/image2.png" alt="bonsai">
+                        </div>
+                        <div class="bottom">
+                            <div class="text">
+                                <h4>
+                                    Chinese Elm
+                                    <br>
+                                    Bonsai
+                                </h4>
+                            </div>
+                            <div class="Buy">
+                                <a href="#" class="start">Buy now</a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="join" data-aos="fade-left">
+                    <div class="text">
+                        <p>
+                            Join
+                            <strong>2,000+</strong>
+                            Shopify
+                            <br>
+                            store owners using
+                            <br>
+                            Storetasker to build
+                            <br>
+                            their dream store
+                        </p>
+                    </div>
+                    <div class="bottom">
+                        <a herf="#">
+                            Get a Free Estimate
+                            <i class="fa-solid fa-arrow-right" style="margin-left: 50px;"></i>
+                        </a>
+                    </div>
+                </section>
+            </section>
+            <section class="stroke">
+                <section class="items">
+                    <div class="text" data-aos="fade-right">
+                        <div class="browsing">
+                            <h5>start browsing the marketplace</h5>
+                            <p>
+                                Most Popular
+                                <br>
+                                Shopify Services
+                            </p>
+                        </div>
+                        <div class="bottom" data-aos="fade-left">
+                            <a href="#">
+                                View All Services
+                                <i class="fa-solid fa-arrow-right" style="margin-left: 50px;"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="menu" data-aos="fade-up">
+                        <ul>
+                            <li>
+                                <a href="#">Email</a>
+                            </li>
+                            <li>
+                                <a href="#">Social Media</a>
+                            </li>
+                            <li>
+                                <a href="#">Advertising</a>
+                            </li>
+                            <li>
+                                <a href="#">Conversion</a>
+                            </li>
+                            <li>
+                                <a href="#">Features</a>
+                            </li>
+                            <li>
+                                <a href="#" class="active">Design</a>
+                            </li>
+                            <li>
+                                <a href="#">Growth</a>
+                            </li>
+                            <li>
+                                <a href="#">Seo</a>
+                            </li>
+                        </ul>
+                        <span>
+                            <em></em>
+                        </span>
+                    </div>
+                    <div class="items-cardtop">
+                        <div class="firstcard">
+                            <div class="card1" data-aos="fade-right">
+                                <div class="top1">
+                                    <img
+                                        src="assets/images/testimonials-1.jpg"
+                                        alt="bonsai"
+                                        width="50px"
+                                        height="50px"
+                                    >
+                                </div>
+                                <div class="top">
+                                    <img
+                                        src="assets/images/card1.jpeg"
+                                        alt="bonsai"
+                                        width="350px"
+                                        height="230px"
+                                    >
+                                </div>
+                                <div class="bottom">
+                                    <div class="text1">
+                                        <p>
+                                            Email Marketing
+                                            <span>4 days</span>
+                                        </p>
+                                    </div>
+                                    <div class="text2">
+                                        <h3>Mailchimp Integration</h3>
+                                    </div>
+                                    <hr class="line">
+                                    <div class="icon">
+                                        <strong>$325.00</strong>
+                                        <div class="stars">
+                                            <span class="star">&#9733;</span>
+                                            <span class="star">&#9733;</span>
+                                            <span class="star">&#9733;</span>
+                                            <span class="star">&#9733;</span>
+                                            <span class="star">&#9733;</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card4" data-aos="fade-left">
+                                <div class="top1">
+                                    <img
+                                        src="assets/images/testimonials-2.jpg"
+                                        alt="bonsai"
+                                        width="50px"
+                                        height="50px"
+                                    >
+                                </div>
+                                <div class="top">
+                                    <img
+                                        src="assets/images/card4.jpeg"
+                                        alt="bonsai"
+                                        width="350px"
+                                        height="230px"
+                                    >
+                                </div>
+                                <div class="bottom">
+                                    <div class="text1">
+                                        <p>
+                                            Email Marketing
+                                            <span>4 days</span>
+                                        </p>
+                                    </div>
+                                    <div class="text2">
+                                        <h3>Mailchimp Integration</h3>
+                                    </div>
+                                    <hr class="line">
+                                    <div class="icon">
+                                        <strong>$325.00</strong>
+                                        <div class="stars">
+                                            <span class="star">&#9733;</span>
+                                            <span class="star">&#9733;</span>
+                                            <span class="star">&#9733;</span>
+                                            <span class="star">&#9733;</span>
+                                            <span class="star">&#9733;</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="midcard">
+                            <div class="card2" data-aos="fade-right">
+                                <div class="top1">
+                                    <img
+                                        src="assets/images/testimonials-3.jpg"
+                                        alt="bonsai"
+                                        width="50px"
+                                        height="50px"
+                                    >
+                                </div>
+                                <div class="top">
+                                    <img
+                                        src="assets/images/card2.jpg"
+                                        alt="bonsai"
+                                        width="350px"
+                                        height="230px"
+                                    >
+                                </div>
+                                <div class="bottom">
+                                    <div class="text1">
+                                        <p>
+                                            Email Marketing
+                                            <span>4 days</span>
+                                        </p>
+                                    </div>
+                                    <div class="text2">
+                                        <h3>
+                                            Xmarine development
+                                            <br>
+                                            sub-hire
+                                        </h3>
+                                    </div>
+                                    <hr class="line">
+                                    <div class="icon">
+                                        <strong>$325.00</strong>
+                                        <div class="stars">
+                                            <span class="star">&#9733;</span>
+                                            <span class="star">&#9733;</span>
+                                            <span class="star">&#9733;</span>
+                                            <span class="star">&#9733;</span>
+                                            <span class="star">&#9733;</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card5" data-aos="fade-left">
+                                <div class="top1">
+                                    <img
+                                        src="assets/images/testimonials-4.jpg"
+                                        alt="bonsai"
+                                        width="50px"
+                                        height="50px"
+                                    >
+                                </div>
+                                <div class="top">
+                                    <img
+                                        src="assets/images/card5.jpeg"
+                                        alt="bonsai"
+                                        width="350px"
+                                        height="230px"
+                                    >
+                                </div>
+                                <div class="bottom">
+                                    <div class="text1">
+                                        <p>
+                                            Email Marketing
+                                            <span>4 days</span>
+                                        </p>
+                                    </div>
+                                    <div class="text2">
+                                        <h3>Mailchimp Integration</h3>
+                                    </div>
+                                    <hr class="line">
+                                    <div class="icon">
+                                        <strong>$325.00</strong>
+                                        <div class="stars">
+                                            <span class="star">&#9733;</span>
+                                            <span class="star">&#9733;</span>
+                                            <span class="star">&#9733;</span>
+                                            <span class="star">&#9733;</span>
+                                            <span class="star">&#9733;</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="lastcard">
+                            <p class="last">
+                                Last 40,
+                                <br>
+                                by Shopify
+                            </p>
+                            <div class="card3" data-aos="fade-right">
+                                <div class="top1">
+                                    <img
+                                        src="assets/images/testimonials-5.jpg"
+                                        alt="bonsai"
+                                        width="50px"
+                                        height="50px"
+                                    >
+                                </div>
+                                <div class="top">
+                                    <img
+                                        src="assets/images/card3.jpeg"
+                                        alt="bonsai"
+                                        width="350px"
+                                        height="230px"
+                                    >
+                                </div>
+                                <div class="bottom">
+                                    <div class="text1">
+                                        <p>
+                                            Email Marketing
+                                            <span>4 days</span>
+                                        </p>
+                                    </div>
+                                    <div class="text2">
+                                        <h3>Mailchimp Integration</h3>
+                                    </div>
+                                    <hr class="line">
+                                    <div class="icon">
+                                        <strong>$325.00</strong>
+                                        <div class="stars">
+                                            <span class="star">&#9733;</span>
+                                            <span class="star">&#9733;</span>
+                                            <span class="star">&#9733;</span>
+                                            <span class="star">&#9733;</span>
+                                            <span class="star">&#9733;</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card6" data-aos="fade-left">
+                                <div class="top1">
+                                    <img
+                                        src="assets/images/testimonials-1.jpg"
+                                        alt="bonsai"
+                                        width="50px"
+                                        height="50px"
+                                    >
+                                </div>
+                                <div class="top">
+                                    <img
+                                        src="assets/images/card6.jpeg"
+                                        alt="bonsai"
+                                        width="350px"
+                                        height="230px"
+                                    >
+                                </div>
+                                <div class="bottom">
+                                    <div class="text1">
+                                        <p>
+                                            Email Marketing
+                                            <span>4 days</span>
+                                        </p>
+                                    </div>
+                                    <div class="text2">
+                                        <h3>Mailchimp Integration</h3>
+                                    </div>
+                                    <hr class="line">
+                                    <div class="icon">
+                                        <strong>$325.00</strong>
+                                        <div class="stars">
+                                            <span class="star">&#9733;</span>
+                                            <span class="star">&#9733;</span>
+                                            <span class="star">&#9733;</span>
+                                            <span class="star">&#9733;</span>
+                                            <span class="star">&#9733;</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </section>
+            <section class="team">
+                <div class="image" data-aos="fade-right">
+                    <img
+                        src="assets/images/team.png"
+                        alt="team"
+                        width="400px"
+                        height="450px"
+                    >
+                </div>
+                <div class="team-text" data-aos="fade-left">
+                    <h5>Become part of the team</h5>
+                    <p class="head">
+                        Become a
+                        <br>
+                        <span>
+                            Storetasker Expert
+                        </span>
+                    </p>
+                    <p class="mid">
+                        We are tight nit community of shopify experts
+                        <br>
+                        helping out store owners with digital tasks.
+                    </p>
+                    <ul>
+                        <li>
+                            <i class="fa-solid fa-check" style="color: #F7A70E; margin-right: 20px;"></i>
+                            Satisfaction guaranteed
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-check" style="color: #F7A70E; margin-right: 20px;"></i>
+                            Fair pricing
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-check" style="color: #F7A70E; margin-right: 20px;"></i>
+                            Fast turnaround
+                        </li>
+                    </ul>
+                    <div class="bottom">
+                        <a href="#">
+                            Become an Expert
+                            <i class="fa-solid fa-arrow-right" style="margin-left: 50px;"></i>
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <section class="benefits">
+                <div class="head" data-aos="fade-up">
+                    <h5>Benefits of storetasker</h5>
+                    <p>
+                        Storetasker makes it
+                        <br>
+                        fast and easy
+                    </p>
+                </div>
+                <div class="benefits-card">
+                    <div class="box1" data-aos="fade-up">
+                        <div class="first">
+                            <div class="icon">
+                                <i class="fa-regular fa-hand-point-up" style="font-size: 50px;"></i>
+                                <h5> Easy to Use</h5>
+                            </div>
+                            <div class="one">
+                                <h1>1</h1>
+                            </div>
+                        </div>
+                        <p>
+                            Hassle-free setup and simple job
+                            <br>
+                            management from start to finish.
+                        </p>
+                    </div>
+                    <div class="box2" data-aos="fade-up">
+                        <div class="second">
+                            <div class="icon">
+                                <i class="fa-solid fa-piggy-bank" style="font-size: 50px;"></i>
+                                <h5> Affordable Rates</h5>
+                            </div>
+                            <div class="two">
+                                <h1>2</h1>
+                            </div>
+                        </div>
+                        <p>
+                            Predictable work rates at $65/hour.
+                            <br>
+                            Ideal for growing Shopify stores
+                        </p>
+                    </div>
+                    <div class="box3" data-aos="fade-up">
+                        <div class="third">
+                            <div class="icon">
+                                <i class="fa-regular fa-hourglass-half" style="font-size: 50px;"></i>
+                                <h5> Fast Turnaround</h5>
+                            </div>
+                            <div class="three">
+                                <h1>3</h1>
+                            </div>
+                        </div>
+                        <p>
+                            No more flakey developers.
+                            <br>
+                            Storetasker developers get
+                            <br>
+                            things done on time.
+                        </p>
+                    </div>
+                </div>
+                <div class="bottom" data-aos="fade-up">
+                    <a href="#">
+                        Get a Free Estimate
+                        <i class="fa-solid fa-arrow-right" style="margin-left: 50px;"></i>
+                    </a>
+                </div>
+            </section>
+            <section class="review">
+                <div class="division1">
+                    <div class="review-text" data-aos="fade-right">
+                        <h5>what others are saying about storetasker</h5>
+                        <p class="head">
+                            Why Storetasker is
+                            <br>
+                            the
+                            <strong>
+                                #1 Shopify
+                                <br>
+                                outsourcing service
+                            </strong>
+                        </p>
+                    </div>
+                    <div class="review-card" data-aos="fade-right">
+                        <div class="top">
+                            <div class="stars">
+                                <span class="star">&#9733;</span>
+                                <span class="star">&#9733;</span>
+                                <span class="star">&#9733;</span>
+                                <span class="star">&#9733;</span>
+                                <span class="star">&#9733;</span>
+                            </div>
+                        </div>
+                        <div class="mid">
+                            <p>
+                                Storetasker delivered on time,
+                                <br>
+                                within budget and went
+                                <br>
+                                above and beyond to make
+                                <br>
+                                my app a success...
+                            </p>
+                        </div>
+                        <div class="bottom">
+                            <img src="assets/images/testimonials-4.jpg" alt="shopify" width="50%">
+                            <p>
+                                <strong>Natalie Hernandez</strong>
+                                <br>
+                                CEO @Stockey
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="division2">
+                    <div class="review-card1" data-aos="fade-left">
+                        <div class="top">
+                            <div class="stars">
+                                <span class="star">&#9733;</span>
+                                <span class="star">&#9733;</span>
+                                <span class="star">&#9733;</span>
+                                <span class="star">&#9733;</span>
+                                <span class="star">&#9733;</span>
+                            </div>
+                        </div>
+                        <div class="mid">
+                            <p>
+                                Storetasker delivered on time,
+                                <br>
+                                within budget and went
+                                <br>
+                                above and beyond to make
+                                <br>
+                                my app a success...
+                            </p>
+                        </div>
+                        <div class="bottom">
+                            <img src="assets/images/testimonials-2.jpg" alt="shopify" width="50%">
+                            <p>
+                                <strong>Natalie Hernandez</strong>
+                                <br>
+                                CEO @Stockey
+                            </p>
+                        </div>
+                    </div>
+                    <div class="review-card2" data-aos="fade-left">
+                        <div class="top">
+                            <div class="stars">
+                                <span class="star">&#9733;</span>
+                                <span class="star">&#9733;</span>
+                                <span class="star">&#9733;</span>
+                                <span class="star">&#9733;</span>
+                                <span class="star">&#9733;</span>
+                            </div>
+                        </div>
+                        <div class="mid">
+                            <p>
+                                Storetasker delivered on time,
+                                <br>
+                                within budget and went
+                                <br>
+                                above and beyond to make
+                                <br>
+                                my app a success...
+                            </p>
+                        </div>
+                        <div class="bottom">
+                            <img src="assets/images/testimonials-3.jpg" alt="shopify" width="50%">
+                            <p>
+                                <strong>Natalie Hernandez</strong>
+                                <br>
+                                CEO @Stockey
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="footer">
+                <div class="top">
+                    <div class="browsing" data-aos="fade-right">
+                        <p>
+                            A better way to hire
+                            <br>
+                            Shopify Help
+                        </p>
+                    </div>
+                    <div class="btn" data-aos="fade-left">
+                        <div class="button1">
+                            <a href="#">
+                                Become an Expert
+                                <i class="fa-solid fa-arrow-right" style="margin-left: 50px;"></i>
+                            </a>
+                        </div>
+                        <div class="button2">
+                            <a href="#">
+                                Get a Free Estimate
+                                <i class="fa-solid fa-arrow-right" style="margin-left: 50px;"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <hr class="line" data-aos="fade-up">
+                <div class="mid">
+                    <div class="info" data-aos="fade-up">
+                        <img src="assets/images/storetasker.png" width="250px" height="100px">
+                        <div class="text">
+                            <p>The #1 Shopify outsourcing marketplace. Proudly built by Carson, highest rated Shopify expert team in the world.</p>
+                        </div>
+                        <div class="payment-method">
+                            <div class="master">
+                                <img
+                                    src="assets/images/master.png"
+                                    alt="mastercard"
+                                    width="40px"
+                                    height="20px"
+                                >
+                            </div>
+                            <div class="visa">
+                                <img
+                                    src="assets/images/visa.png"
+                                    alt="visacard"
+                                    width="40px"
+                                    height="20px"
+                                >
+                            </div>
+                            <div class="paypal">
+                                <img
+                                    src="assets/images/paypal.png"
+                                    alt="paypal"
+                                    width="50px"
+                                    height="25px"
+                                >
+                            </div>
+                        </div>
+                    </div>
+                    <div class="company" data-aos="fade-up">
+                        <ul>
+                            <h5>Company</h5>
+                            <li>
+                                <a href="#">Home</a>
+                            </li>
+                            <li>
+                                <a href="#">Pricing</a>
+                            </li>
+                            <li>
+                                <a href="#">About</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="connect" data-aos="fade-up">
+                        <ul>
+                            <h5>Connect</h5>
+                            <li>
+                                <a href="#">Our Community</a>
+                            </li>
+                            <li>
+                                <a href="#">Facebook</a>
+                            </li>
+                            <li>
+                                <a href="#">Blog</a>
+                            </li>
+                            <li>
+                                <a href="#">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="experts" data-aos="fade-up">
+                        <ul>
+                            <h5>Experts</h5>
+                            <li>
+                                <a href="#">Apply as an Expert</a>
+                            </li>
+                            <li>
+                                <a href="#">Vetting Guidelines</a>
+                            </li>
+                            <li>
+                                <a href="#">Expert Sign in</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="card" data-aos="fade-up">
+                        <div class="card-top">
+                            <div class="stars">
+                                <span class="star">&#9733;</span>
+                                <span class="star">&#9733;</span>
+                                <span class="star">&#9733;</span>
+                                <span class="star">&#9733;</span>
+                                <span class="star">&#9733;</span>
+                            </div>
+                        </div>
+                        <div class="card-mid">
+                            <p>
+                                4109 jobs completed successfully with 5-star reviews
+                            </p>
+                        </div>
+                        <div class="card-bottom">
+                            <img src="assets/images/shopify.png" alt="shopify" width="50%">
+                        </div>
+                    </div>
+                </div>
+                <div class="copyright">
+                    <div class="text">
+                        <p>
+                            <i class="fa-regular fa-copyright"></i>
+                            2017 - Storetasker - All rights reserved.
+                        </p>
+                    </div>
+                    <div class="privacy">
+                        <ul>
+                            <li>
+                                <a href="#">Terms</a>
+                            </li>
+                            <li>
+                                <a href="#">Privacy</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <!--  Main JS File -->
+        <script src="assets/js/main.js"></script>
+        <!-- Font Awesome  JS cdn link -->
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js"
+            integrity="sha512-6PM0qYu5KExuNcKt5bURAoT6KCThUmHRewN3zUFNaoI6Di7XJPTMoT6K0nsagZKk2OB4L7E3q1uQKHNHd4stIQ=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        ></script>
+        <!--  Animation JS cdn link -->
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <!--  Animation JS  -->
+        <script>
+        AOS.init();
+        </script>
+    </body>
+</html>
